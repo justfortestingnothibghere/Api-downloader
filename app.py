@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.secret_key = 'change_this_to_a_strong_random_secret_key'  # CHANGE THIS!
 
 # ==================== CONFIG ====================
-YOUR_SITE_URL = "https://teamdev-sapi-onrender.com"  # CHANGE TO YOUR ACTUAL SITE URL (e.g. https://teamdev.sbs)
+YOUR_SITE_URL = "https://teamdev-sapi.onrender.com"  # CHANGE TO YOUR ACTUAL SITE URL (e.g. https://teamdev.sbs)
 PING_INTERVAL = 10  # seconds
 
 # Database initialization
